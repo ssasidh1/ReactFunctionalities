@@ -12,7 +12,7 @@ const CreateCakeComponent = (props) => {
 
 const mapStateToProps = state =>{
     return {
-      noOfCake : state.noOfCake
+      noOfCake : state.cake.noOfCake
     }
   }
   
